@@ -186,3 +186,45 @@ aside#sidebar .quote input, aside#sidebar .quote textarea {
   width: 90%;
   padding: 5px;
 }
+
+ul#services li {
+  list-style: none;
+  background: #e6e6e6;
+  padding: 20px;
+  border: #ccc solid 1px;
+  margin-bottom: 5px;
+}
+
+ul#services .margin {
+  margin-bottom: 30px;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px) {
+  header #branding, header nav, header nav li, #subscription h2, #subscription form, #boxes .boxes, article#main-col, aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header {
+    padding-bottom: 20px;
+  }
+  #showcast h1 {
+    margin-top: 40px;
+  }
+  #subscription button, .quote button {
+    display: block;
+    width: 100%;
+  }
+  #subscription form input, .quote input, .quote textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  aside#sidebar form {
+    width: 80%;
+    margin: 10px auto;
+    padding-left: 60px;
+    padding-right: 55px;
+  }
+}
