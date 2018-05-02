@@ -1,4 +1,5 @@
 <!-- Headings -->
+<center>
 # Responsive Website Design
 ### created with pure CSS3 and HTML5
 ---
@@ -16,3 +17,4 @@
 * HTML5
 * CSS3
 * Media Queries
+</center>
