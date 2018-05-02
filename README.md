@@ -9,7 +9,7 @@
 
 <!-- Italics -->
 <center>
->*mobile* website version
+>mobile website version
 
 ![Markdown Logo](https://s25.postimg.cc/f45aeqvkf/mobile.jpg)
 
